@@ -16,6 +16,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 9>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 13>;
+        };
     };
 
     keymap {
