@@ -9,15 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Q+W {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
-            layers = <0>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
