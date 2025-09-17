@@ -54,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5         &kp N6          &kp N7          &kp N8        &kp N9                &kp N0                 &trans
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET       &kp AMPS        &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW       &kp GRAVE              &trans
-                                    &kp LGUI      &trans        &kp SPACE      &kp RET         &trans          &kp RALT
+&trans  &kp N1        &kp N2               &kp N3                 &kp N4                 &kp N5         &kp N6          &kp N7                &kp N8              &kp N9                              &kp N0                 &trans
+&trans  &kp EXCL      &mt LEFT_COMMAND AT  &mt LEFT_CONTROL HASH  &mt LEFT_SHIFT DOLLAR  &kp PERCENT    &kp CARET       &mt RIGHT_SHIFT AMPS  &mt RCTRL ASTERISK  &mt RIGHT_COMMAND LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2           &bt BT_SEL 3           &bt BT_CLR     &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW        &kp RIGHT_ARROW                     &kp GRAVE              &trans
+                                           &kp LGUI               &trans                 &kp SPACE      &kp RET         &trans                &kp RALT
             >;
         };
 
